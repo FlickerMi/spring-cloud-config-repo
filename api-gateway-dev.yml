@@ -2,14 +2,14 @@ zuul:
   routes:
     # 自定义规则名
     myProduct:
-      path: /myProduct/**
+      path: /myProduct1/**
       # 服务名
       serviceId: product
       # 敏感头设置为空
       sensitiveHeaders:
 #    # 简洁写法
 #    product: /myProduct/**
-#  # 排除某些路由
+ # 排除某些路由
 #   ignored-patterns:
 #     - /**/product/list
 management:
