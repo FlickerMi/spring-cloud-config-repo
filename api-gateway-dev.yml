@@ -2,7 +2,7 @@ zuul:
   routes:
     # 自定义规则名
     myProduct:
-      path: /myProduct1/**
+      path: /myProduct/**
       # 服务名
       serviceId: product
       # 敏感头设置为空
