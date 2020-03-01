@@ -9,9 +9,9 @@ zuul:
       sensitiveHeaders:
 #    # 简洁写法
 #    product: /myProduct/**
- # 排除某些路由
-  ignored-patterns:
-    - /**/product/list
+#  # 排除某些路由
+#   ignored-patterns:
+#     - /**/product/list
 management:
   endpoints:
     web:
