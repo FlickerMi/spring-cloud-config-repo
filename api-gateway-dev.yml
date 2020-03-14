@@ -12,6 +12,11 @@ zuul:
  # 排除某些路由
 #   ignored-patterns:
 #     - /**/product/list
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: myredis
 management:
   endpoints:
     web:
